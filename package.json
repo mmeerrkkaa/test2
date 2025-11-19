@@ -19,5 +19,9 @@
         "default": "Привет, {targetUser}, от {user.username}!"
       }
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmeerrkkaa/test2"
   }
 }
