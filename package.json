@@ -1,0 +1,23 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "keywords": [
+    "blockmine",
+    "blockmine-plugin",
+    "minecraft",
+    "mineflayer"
+  ],
+  "botpanel": {
+    "main": "index.js",
+    "settings": {
+      "helloMessage": {
+        "type": "string",
+        "label": "Сообщение приветствия",
+        "description": "Используйте {targetUser} и {user.username} для подстановок.",
+        "default": "Привет, {targetUser}, от {user.username}!"
+      }
+    }
+  }
+}
